@@ -1,0 +1,53 @@
+.feed-detail-page {
+  .right-main-card {
+    .search {
+      margin-bottom: 8px;
+      @media (max-width: 450px) {
+        margin-bottom: 31px;
+      }
+    }
+    .feed-list-rowClasses {
+      padding: 14px 10px 13px 10px;
+      @media (max-width: 400px) {
+        padding-top: 15px;
+        padding-left: 5px;
+      }
+    }
+    .feed-main-list-image {
+      img {
+        width: 95px;
+        height: 54px;
+        object-fit: cover;
+        // @media (max-width: 772px) {
+        //   width: 76px;
+        //   height: 41px;
+        // }
+        @media (max-width: 600px) {
+          width: 61px;
+          height: 36px;
+        }
+      }
+    }
+    .headerStyle {
+      th {
+        &:last-child {
+          width: 85px;
+        }
+        &:nth-last-child(2) {
+          width: 166.9px;
+        }
+        &:nth-last-child(3) {
+          width: 290px;
+        }
+      }
+    }
+    .form-switch-md {
+      margin-left: -25px;
+    }
+  }
+  // .right_bar .search input{
+  //   @media (min-width:1440px) {
+  //     padding: 9px 16px 8px 16px;
+  //   }
+  // }
+}

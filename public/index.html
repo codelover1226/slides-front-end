@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="title" content="Grow Slides" />
+  <meta name="description"
+    content="An application to display grow contents as slides on your Android/Apple/Roku/AmazonFireStick TV" />
+  <meta property="og:title" content="Slidr by Stuff You Can Use" />
+  <meta property="og:description"
+    content="An application to display grow contents as slides on your Android/Apple/Roku/AmazonFireStick TV" />
+  <meta property="og:url" content="https://slidr.stuffyoucanuse.org/" />
+  <meta property="og:site_name" content="Slidr by Stuff You Can Use" />
+  <!-- <script
+      src="https://cdn.tiny.cloud/1/ydw8d3svqi51xq2mmoezpzrzqc1f6c8wdza5hw9kyncs8mu5/tinymce/5/tinymce.min.js"
+      referrerpolicy="origin"></script> -->
+  <!-- center-tool-bar -->
+  <!-- <script
+      src="https://cdn.tiny.cloud/1/ydw8d3svqi51xq2mmoezpzrzqc1f6c8wdza5hw9kyncs8mu5/tinymce/5/tinymce.min.js"
+      referrerpolicy="origin"></script> -->
+  <!-- cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css -->
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script src="https://kit.fontawesome.com/aed416fae4.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Hotjar Tracking Code for Grow Slidr -->
+  <script>
+    (function (h, o, t, j, a, r) {
+      h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+      h._hjSettings = { hjid: 3306406, hjsv: 6 };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script'); r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
+
+  <style>
+    @import url("https://use.typekit.net/rgq1vgh.css");
+  </style>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Erica+One&display=swap');
+  </style>
+
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>Grow Slides</title>
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1672751816074624');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1672751816074624&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+
+  <!-- Global site tag (gtag.js) - Google Ads: Stuff You Can Use Google Tag -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-855676209"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86106221-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { window.dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-855676209');
+    gtag('config', 'UA-86106221-2');
+  </script>
+
+  <script type="text/javascript">
+    (function (e, t, o, n, p, r, i) { e.visitorGlobalObjectAlias = n; e[e.visitorGlobalObjectAlias] = e[e.visitorGlobalObjectAlias] || function () { (e[e.visitorGlobalObjectAlias].q = e[e.visitorGlobalObjectAlias].q || []).push(arguments) }; e[e.visitorGlobalObjectAlias].l = (new Date).getTime(); r = t.createElement("script"); r.src = o; r.async = true; i = t.getElementsByTagName("script")[0]; i.parentNode.insertBefore(r, i) })(window, document, "https://diffuser-cdn.app-us1.com/diffuser/diffuser.js", "vgo");
+    vgo('setAccount', '27748250');
+    vgo('setTrackByDefault', true);
+    vgo('process');
+  </script>
+
+  <script type="text/javascript" src="https://widget.wickedreports.com/v2/702/wr-a2a2448f01c9fc76282ab47d454a7983.js"
+    async></script>
+
+  <!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/6253593.js"></script>
+  <!-- End of HubSpot Embed Code -->
+
+  <!-- Feedback.JS Start -->
+  <script>
+    (function (d, t, g) {
+      var ph = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      ph.type = 'text/javascript';
+      ph.async = true;
+      ph.charset = 'UTF-8';
+      ph.src = g + '&v=' + (new Date()).getTime();
+      s.parentNode.insertBefore(ph, s);
+    })(document, 'script', '//feedback.stuffyoucanuse.org/?p=2250&ph_apikey=a520ce96038cb7735daab6c3ceea9da8');
+  </script>
+  <!-- Feedback.JS End -->
+
+</head>
+
+<body class="bd-shape">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+  <script>
+    (function (w, d, t, r, u) { var f, n, i; w[u] = w[u] || [], f = function () { var o = { ti: "25078538" }; o.q = w[u], w[u] = new UET(o), w[u].push("pageLoad") }, n = d.createElement(t), n.src = r, n.async = 1, n.onload = n.onreadystatechange = function () { var s = this.readyState; s && s !== "loaded" && s !== "complete" || (f(), n.onload = n.onreadystatechange = null) }, i = d.getElementsByTagName(t)[0], i.parentNode.insertBefore(n, i) })(window, document, "script", "//bat.bing.com/bat.js", "uetq")
+  </script>
+</body>
+
+</html>

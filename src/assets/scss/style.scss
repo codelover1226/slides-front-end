@@ -1,0 +1,40 @@
+@import "~bootstrap/scss/bootstrap";
+@import "variables";
+@import "global";
+@import "mixins";
+@import "typography";
+@import "pages/page_style";
+@import "components/component_style.scss";
+@import "components/toasts";
+
+@font-face {
+  font-family: "integral-cf";
+  src: url("../fonts/integralcf-demibold.otf") format("otf"),
+    url("../fonts/integralcf-demibold.otf") format("woff2"),
+    url("../fonts/integralcf-demibold.otf") format("woff"),
+    url("../fonts/integralcf-demibold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "quicksilver-italic-font";
+  src: url("../fonts/Quicksilver\ Italic.otf") format("otf"),
+    url("../fonts/Quicksilver\ Italic.otf") format("woff2"),
+    url("../fonts/Quicksilver\ Italic.otf") format("woff"),
+    url("../fonts/Quicksilver\ Italic.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "drukWide-heavy";
+  src: url("../fonts/DrukWide-Heavy.otf") format("otf"),
+    url("../fonts/DrukWide-Heavy.otf") format("woff2"),
+    url("../fonts/DrukWide-Heavy.otf") format("woff"),
+    url("../fonts/DrukWide-Heavy.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "vanguardcf-bold";
+  src: url("../fonts/vanguardcf-bold.otf") format("otf"),
+    url("../fonts/vanguardcf-bold.otf") format("woff2"),
+    url("../fonts/vanguardcf-bold.otf") format("woff"),
+    url("../fonts/vanguardcf-bold.otf") format("truetype");
+}

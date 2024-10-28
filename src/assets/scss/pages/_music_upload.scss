@@ -1,0 +1,183 @@
+.rhap_volume-bar {
+  height: 2px !important;
+  background: #aecf6d !important;
+}
+
+.rhap_volume-indicator {
+  background: white !important;
+  top: -5 !important;
+}
+.rhap_progress-filled {
+  background-color: #aecf6d !important;
+}
+
+.rhap_progress-indicator {
+  background-color: white !important;
+  width: 14px !important;
+  height: 14px !important;
+  top: -6px !important;
+}
+
+.rhap_progress-bar {
+  height: 2px !important;
+  background-color: #e6e8ec !important;
+}
+
+.rhap_container {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.rhap_play-pause-button {
+  font-size: 0px !important;
+  width: 20px !important;
+  height: 24px !important;
+}
+.rhap_main-controls-button {
+  margin: o !important;
+}
+
+// .rhap_additional-controls{
+//   display: none !important;
+// }
+
+.rhap_play-pause-button:hover {
+  background-color: white !important;
+}
+.rhap_volume-button:hover {
+  background-color: white !important;
+}
+
+.volume-dropdown .dropdown button {
+  background-color: white !important;
+  border: none !important;
+  padding-left: 10px;
+  padding-top: 12px;
+}
+.playbackspeed-dropdownitem {
+  padding-left: 37px !important;
+}
+.volume-dropdown {
+  position: relative;
+}
+
+.custom-volume-dropdown-visible {
+  position: absolute;
+  display: flex;
+  left: 44px;
+  background-color: white;
+  padding: 10px;
+  font-size: 13px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 80px;
+  width: 115px;
+  border-radius: 6px;
+  flex-direction: column;
+  top: 0px;
+}
+
+.custom-volume-dropdown-off {
+  position: absolute;
+  display: none;
+}
+
+.custom-volume-nested-dropdown-visible {
+  position: absolute;
+  display: flex;
+  left: 54px;
+  background-color: white;
+  padding: 10px;
+  font-size: 13px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 115px;
+  width: 115px;
+  border-radius: 6px;
+  flex-direction: column;
+  top: 0px;
+}
+
+.custom-volume-nested-dropdown-off {
+  position: absolute;
+  display: none;
+}
+
+.rhap_time {
+  font-size: 11px !important;
+}
+
+.rhap_main-controls {
+  position: absolute;
+  bottom: 26px;
+  left: 6px;
+  @media (max-width: 576px) {
+    bottom: 355px;
+  }
+  @media (max-width: 377px) {
+    bottom: 334px;
+  }
+}
+
+.rhap_progress-section {
+  margin-left: 16px !important;
+}
+
+.rhap_volume-container {
+  position: absolute;
+  bottom: 54px;
+  right: 66px;
+  @media (max-width: 576px) {
+    bottom: 384px;
+  }
+  @media (max-width: 377px) {
+    bottom: 365px;
+  }
+}
+
+.rhap_current-time {
+  position: absolute;
+  top: 136px;
+  left: 35px;
+  @media (max-width: 576px) and (min-width: 377px) {
+    top: 130px;
+  }
+}
+
+.rhap_total-time {
+  position: absolute;
+  top: 136px;
+  right: 30px;
+  @media (max-width: 576px) and (min-width: 377px) {
+    top: 130px;
+  }
+}
+
+.rhap_container {
+  padding: 0 15px 27px 15px !important;
+  //padding-top:0px !important;
+}
+
+.rhap_progress-container {
+  margin: 0 calc(0px + 1%) !important;
+}
+
+.image-container-music {
+  width: 15px;
+  height: 15px;
+  img {
+    width: 100%;
+  }
+}
+
+.rhap_volume-bar-area {
+  width: 59px !important;
+}
+
+.playBackSpeed-mini-Container {
+  color: var(--black-100, #091d37);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}

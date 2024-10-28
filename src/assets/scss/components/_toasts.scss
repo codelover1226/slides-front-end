@@ -1,0 +1,115 @@
+.Toastify__toast-body {
+  display: flex;
+  padding-top: 0px !important;
+  padding-right: 25px !important;
+  font-size: 14px !important;
+  margin-right: 15px !important;
+}
+.Toastify__toast-icon {
+  display: none;
+}
+.Toastify__toast {
+  min-height: 70px !important;
+}
+.Toastify__toast--error {
+  border: 1px solid #e84c4d;
+  border-radius: 10px !important;
+  background: #fce5e5 !important;
+}
+.Toastify__toast--error::after {
+  content: url("../../images/close.svg");
+  position: absolute;
+  color: #333333;
+  font-size: 15px;
+  font-weight: 700;
+  // left: 300px;
+  right: 20px;
+  padding-top: 14px !important;
+}
+.Toastify__toast--error::before {
+  content: url("../../images/warning2.png");
+  position: relative;
+  z-index: 100000;
+  left: 12px;
+  top: 6px;
+  display: flex;
+  @supports (-moz-appearance: none) {
+    position: relative;
+    z-index: 100000;
+    left: 12px;
+    top: 0px;
+    display: flex;
+  }
+}
+.Toastify__toast--success {
+  border: 1px solid #aecf6d !important;
+  border-radius: 10px !important;
+  background: #f5f8e9 !important;
+}
+.Toastify__toast--success::before {
+  content: url("../../images/succesToast.png");
+  position: relative;
+  z-index: 100000;
+  left: 12px;
+  top: 6px;
+  display: flex;
+  @supports (-moz-appearance: none) {
+    position: relative;
+    z-index: 100000;
+    left: 12px;
+    top: 0px;
+    display: flex;
+  }
+}
+.Toastify__toast--success::after {
+  content: url("../../images/close.svg");
+  position: absolute;
+  color: #333333;
+  font-size: 15px;
+  font-weight: 700;
+  left: inherit !important;
+  right: 25px;
+  padding-top: 14px !important;
+}
+.Toastify__toast--warning {
+  border: 1px solid #efce18 !important;
+  border-radius: 10px !important;
+  background: #fffadc !important;
+}
+.Toastify__toast--warning::before {
+  content: url("../../images/warning1.png");
+  position: relative;
+  z-index: 100000;
+  left: 12px;
+  top: 6px;
+  @supports (-moz-appearance: none) {
+    position: relative;
+    z-index: 100000;
+    left: 12px;
+    top: 0px;
+    display: flex;
+  }
+}
+.Toastify__toast--warning::after {
+  content: url("../../images/close.svg");
+  position: absolute;
+  color: #333333;
+  font-size: 15px;
+  font-weight: 700;
+  right: 20px;
+  padding-top: 14px !important;
+}
+.Toastify__toast-body {
+  color: #444c63;
+  font-size: 16px;
+  padding-left: 20px;
+  line-height: 20px;
+  padding: 0px;
+  padding-top: 25px;
+  width: 100%;
+  font-weight: 400;
+  margin-left: 25px !important;
+}
+.Toastify__toast > button > svg {
+  display: none;
+}
